@@ -1,0 +1,293 @@
+/* Menu com bordas arredondadas*/
+    nav{
+        background-color: rgb(50, 50, 50);
+        text-align: center;
+        padding: 10px 0;
+    }
+
+/*Comando para deixar os elementos de uma lista um do lado do outro no Menu */
+    ul{
+        padding: 0;
+        margin: 0 auto;
+    }
+
+/*Comando para quando passar o mouse em cima do menu fazer um efeito */
+    a:hover{
+        background-color: white;
+        color:black;
+        border-radius: 60px;
+    }    
+    
+/*Comando para definir o espaçamento dos itens em uma lista */
+    li{
+        display: inline-block;
+        width: 141px;
+    }
+
+/*Comando para personalizar os Links */
+    a{
+        display: block;
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 12px;
+        transition: all 0.8s;
+        font-weight: 550;
+    }
+
+/*Personalizando Fonte e cor do fundo e das Letras */
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(20, 20, 20);
+        color: white;
+    }
+
+/*Função para centralizar  */
+    .centro{
+        text-align: center;
+    }
+
+/*Mudar a fonte dos títulos e as cores*/
+    h1{
+        color: rgb(153, 255, 0);
+        font-weight: 750;
+        font-size: 32px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 20px 30px 30px;
+        box-shadow: 0 2px 5px rgb(90, 90, 90);
+        border: 1px solid rgb(37, 37, 37);
+        border-radius: 30px;
+        width: 300px;
+        margin: 0 auto;
+        background-color: rgb(20, 20, 20)
+    }
+
+    h2{
+        font-size: 38px;
+        margin-left: 40px;
+    }
+
+    h3{
+        color: rgb(0, 255, 110);
+        font-size: 28px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 20px;
+       
+    }
+
+    h4{
+        padding-left: 580px;
+        padding-bottom: 100px;
+        padding-top: 100px;
+        text-align: center;
+        justify-content: center;
+
+    }
+    h5{
+        font-size: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: none;
+        border-radius: 20px;
+        backdrop-filter: blur(5px);
+        color: rgb(131, 252, 133);
+        font-weight: 550;
+    }
+
+/*Fazer caixas com bordas arredondadas dentro dos paragrafos */
+    p{
+        background-color: rgb(27, 27, 27);
+        padding: 10px 20px;
+        margin: 40px;
+        font-size: 17px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+
+/*Deixar o rodapé no final da pagina e dentro de uma caixa e em uma escala menor */
+    footer{
+        text-align: left;
+        transform: scale(0.6);
+        background-color: rgb(43, 43, 43);  
+        color: white;   
+        padding: 20px;
+        width: 100%;
+        margin-top: 500px;
+    }
+
+/*Deixando o formulário no centro com uma borda com e tamanho diferente e uma foto de fundo*/
+    form{
+        max-width: 650px;
+        margin: 0 auto;
+        border: none;
+        border-radius: 20px;
+        padding: 250px 500px;
+        background-image: url(Fcontact1.jpg);
+        background-size: cover;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+/*Personalizando as Caixas de Texto*/
+    tr{
+        transform: translate(17px);
+        font-size: 20px;
+        color: rgb(3, 249, 3);
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    th{
+        text-align: left;
+        padding-right: 15px;
+        font-weight: 400;
+        font-size: 20px;
+        padding: 3px;
+    }   
+
+    table{
+        border: none;
+        border-radius: 50px;
+        margin: 0 auto;
+        backdrop-filter: blur(5px);
+    }
+
+    .caixas{
+        width: 100%;
+        height: 20px;
+        position: relative;
+        background: transparent;
+        border: 1px solid snow;
+        color: whitesmoke;
+        padding: 10px;
+        font-size: 16px;
+        transition: all 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto;
+    }
+
+    .caixa-text{
+        width: 100%;
+        border: 1px solid snow;
+        font-family: Arial, Helvetica, sans-serif;
+        background: transparent;
+        color: whitesmoke;
+        padding: 10px;
+        font-size: 16px;
+        transition: all 0.5s;
+        margin-bottom: 20px;
+        height: 100px;
+        margin: auto;
+    }
+
+    form input:focus{
+        border-radius: 16px;
+    }
+
+    form textarea:focus{
+        border-radius: 16px;
+    }
+
+
+/*Personalizando o botao de enviar*/
+    .botao{
+        width: 100px;
+        height: 45px;
+        background: transparent;
+        color: lightgreen; 
+        font-size: 16px;
+        font-weight: 800;
+        border: 2px solid lightgreen;
+        cursor: pointer;
+        transition: all 0.4s ease-out;
+        margin-bottom: 20px;
+        margin: auto;
+    }   
+
+    .botao:hover{
+        background: lightgreen;
+        color: black;
+        border-radius: 16px;
+        transform: scale(1.1);
+    }
+
+/*Mudar o estilo de link somente da pagina Portifólio*/
+    .linkP{
+        font-weight: 600;
+        margin-left: 60px;
+        display: inline-block;
+    }
+
+    .linkP:hover{
+        background: transparent;
+        color: white;
+        transform: scale(1.1);
+        text-decoration: underline;
+        border-radius: 10px;
+    }
+
+
+/*Comando para colocar uma imagem no fundo do Emal/Tel para contato*/
+    .Contactimg{
+        background-image: url(Fundo.jpg);
+        background-size: cover;
+        border: 1px rgb(66, 66, 66) solid;
+        border-radius: 20px;
+    }
+
+    .copy-link{
+        --height: 36px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 300px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .copy-link-input{
+        background-color: rgb(73, 73, 73);
+        color: white;
+        flex-grow: 1;
+        font-size: 36px;
+        font-weight: 550;
+        border: 1px black solid;
+        border-radius: 5px;
+        margin-left: -450px;
+
+    }
+
+    .copy-link-input:hover{
+        background-color: rgb(189, 189, 189);
+        color: black;
+        border: 1px white solid;
+    }
+
+    .copy-link-button{
+        flex-shrink: 0;
+        width: var(--height);
+        height: var(--height);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: black;
+        color: darkgray;
+        outline: none;
+        border: 1px solid gray;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 60px;
+        padding: 50px;
+
+    }
+
+    .copy-link-button:hover{
+        background-color: rgb(100, 100, 100);
+        color: black;
+        border: 2px white solid;
+    }
+
+    .copy-link-button:active{
+        background-color: green;
+    }
